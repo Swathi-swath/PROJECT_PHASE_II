@@ -1,0 +1,18 @@
+drop database db;
+create database db;
+use db
+ 
+drop table userreg;
+
+drop table rec;
+
+commit;
+
+
+create table userreg(user_name varchar(200),pass varchar(200),email varchar(200),mob varchar(200));
+create table anx(msg varchar(200),ctime varchar(200));
+
+create table rec(user_name varchar(200));
+
+
+commit;
